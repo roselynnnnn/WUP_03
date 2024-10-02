@@ -18,9 +18,15 @@ davisdata <- read.csv(file="UCDavis.csv")
 Is there a difference between the alcohol consumed between the row
 you choose to sit in??
 
+##Method
+predict alcohol consumption base on where you sit
+
 $H_0$: There is no difference between the alcohol consumed between the row you sit in. 
 
 $H_A$: There is a difference between the alcohol consumed between the row you sit in.  
+
+alcohol is numerical  
+seat is categorical, so we use the Numerical~Cat helper file.
 
 ## Now with ggplot - first select the basic data
 
