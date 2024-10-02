@@ -46,7 +46,14 @@ basicCN + geom_boxplot()
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
+Boxplot shows that the drunks are mostly in
+
 ## Numerical Summarys 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+The average of ounces of alcohol consumed for those seated in the back would be 8.5, while those seated in the front have an average of 1.7 and those in the middle consumed and average of 3.3 ounces of alcohol.
 
 ## Inferential Tests
 
